@@ -1,0 +1,177 @@
+/************************************************/
+/*	j-he.net Bootstrap Sass Theme		*/
+/*	Author: j-he				*/
+/*	Version: 0.0.1				*/
+/************************************************/
+/************************************************/
+/*  Base - Base styles, variables, mixins, etc	*/
+/************************************************/
+/* Font Theme */
+/* line 1, ../scss/base/_normalize.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+/* line 1, ../scss/base/_base.scss */
+body {
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: touch;
+  font-family: "Rajdhani", Helvetica, sans-serif;
+  font-size: 12pt;
+  line-height: 1.5em;
+  color: #333333;
+}
+
+/************************************************/
+/* 	MODULES - Individual site components 	*/
+/************************************************/
+/* line 1, ../scss/modules/_typography.scss */
+a {
+  color: #cbbeb5;
+}
+
+/* line 5, ../scss/modules/_typography.scss */
+.navbar-right > li > a:hover {
+  background-color: rgba(203, 190, 181, 0.3) !important;
+}
+
+/* line 9, ../scss/modules/_typography.scss */
+a.active {
+  background-color: rgba(203, 190, 181, 0.2);
+}
+
+/* line 13, ../scss/modules/_typography.scss */
+.title {
+  font-family: "Rajdhani", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 2.5em;
+  padding-left: 2em;
+  margin-bottom: 15px;
+  line-height: 1.7em;
+}
+
+/* line 22, ../scss/modules/_typography.scss */
+.notbio {
+  padding-left: 4em;
+}
+
+/* line 26, ../scss/modules/_typography.scss */
+.subtitle {
+  line-height: .9em;
+  font-size: 2.0em;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+/* line 32, ../scss/modules/_typography.scss */
+.tagline {
+  font-family: "Rajdhani", Helvetica, sans-serif;
+  font-size: 1.0em;
+  line-height: 1.2em;
+  font-weight: 200;
+}
+
+/* line 39, ../scss/modules/_typography.scss */
+.footertext {
+  font-family: "Rajdhani", Helvetica, sans-serif;
+  font-size: 0.8em;
+}
+
+/* line 44, ../scss/modules/_typography.scss */
+.list-social .btn {
+  font-size: 1.2em !important;
+}
+
+/* line 48, ../scss/modules/_typography.scss */
+.list-social a {
+  color: #cbbeb5;
+}
+
+/* line 52, ../scss/modules/_typography.scss */
+.list-social a:hover, a:hover {
+  color: #cbbeb5;
+  background-color: none !important;
+}
+
+/* line 57, ../scss/modules/_typography.scss */
+.publications {
+  font-size: 11pt;
+}
+
+/********************************************************/
+/*                   	Buttons                       	*/
+/********************************************************/
+/*.btn{
+	color:#333;
+	text-shadow: none;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border:0 none;
+}*/
+/* line 12, ../scss/modules/_buttons.scss */
+.btn:hover {
+  color: #000;
+}
+
+/* line 15, ../scss/modules/_buttons.scss */
+.btn-lg {
+  padding: 16px 30px;
+  font-size: inherit;
+}
+
+/* line 20, ../scss/modules/_buttons.scss */
+.btn-link {
+  color: rgba(225, 225, 225, 0.7);
+}
+
+/* line 23, ../scss/modules/_buttons.scss */
+.btn-link:hover, .btn-link:focus, .btn-link:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 26, ../scss/modules/_buttons.scss */
+.btn-default {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* line 29, ../scss/modules/_buttons.scss */
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+  background: rgba(203, 190, 181, 0.3);
+}
+
+/********************************************************/
+/*		Sections style				*/
+/********************************************************/
+/* line 5, ../scss/modules/_sections.scss */
+.section {
+  width: 100%;
+  height: 100%;
+  display: none;
+  overflow: auto;
+  padding-top: 50px;
+}
+
+/* line 13, ../scss/modules/_sections.scss */
+#hm {
+  display: block;
+}
+
+/************************************************/
+/* 	LAYOUTS - Page layout styles 		*/
+/************************************************/
+/* line 1, ../scss/layouts/_nav.scss */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+}
+
+/*.navbar-right > li > a, .navbar-right > a{
+    color: #000 ;
+}
+
+.navbar-right > li > a:hover, .navbar-right > li > a:active, .nav > a:hover, .nav > a:active{
+    color: #fff ;
+    background-color: rgba(0,0,0,0.3);
+}*/

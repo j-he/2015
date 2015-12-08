@@ -1,0 +1,31 @@
+/********************************************************/
+/*                   	Buttons                       	*/
+/********************************************************/
+/*.btn{
+	color:#333;
+	text-shadow: none;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border:0 none;
+}*/
+.btn:hover {
+	color:#000;
+}
+.btn-lg { 
+	padding:16px 30px;
+	font-size:inherit;
+}
+
+.btn-link {
+	color:rgba(225,225,225,.7);
+}
+.btn-link:hover, .btn-link:focus, .btn-link:active {
+	color: rgba(0,0,0, .3);
+}
+.btn-default {
+	background: rgba(255,255,255,.5);
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+	background: rgba(203,190,181,.3);
+}
